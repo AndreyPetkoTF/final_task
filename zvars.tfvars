@@ -1,0 +1,9 @@
+project = "andrey"
+vpc_cidr_range = "10.1.0.0/16"
+profile_name = "andrey"
+public_subnet_cidr = "10.1.0.0/24"
+public_subnet_cidr-2 = "10.1.1.0/24"
+instace_type = "t2.micro"
+desired_capacity = 2
+min_size = 2
+max_size = 2

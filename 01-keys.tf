@@ -1,0 +1,5 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "itea-test-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTaFe6vJmi2PYvotXJ6WLLXNxWJekWyViVhEVxp+FOWpR2+AalhL7PrqJDGNlss16F0RtRmgDHJPhkUwJ59kuuiupWBKHwVhzvkMC8VCXjB2IeKS7wPVSHa9JQR8+bW8Vcx22oxaRerqek4DFE0eQ9yBn3t3r3Ix6VaWxM3ddwwWARn4butcZ3TjVi4lvIDxcE6Uoq5r89DYJvM9p2eEFbFTswo/niOSM9ok9RuWvKOrXW2BEmLKFDFOVTKshm5y/eStGs1i5DU342wF/2oyQOlZVoqtkiMa+gdhM5uO9nBe6UHBQIv0cJbO6pyqdPxCtbdnhdlUQRY0YI8YuncO95 andreypetko@Andreys-MacBook-Pro.local"
+}
+
